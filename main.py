@@ -49,9 +49,9 @@ def exception_handling(ex):
         main_program()
     elif isinstance(ex,ValueError):
         print("please make sure you enter a integar number as a choice")
-        mainprogram()
+        main_program()
     else:
-        pass
+        main_program()
 
 def main_program():
     try:
